@@ -2,7 +2,7 @@ BEGIN:VCARD
 VERSION:3.0
 FN:KH Sanierungsbetrieb
 ORG:KH Sanierungsbetrieb
-TEL;TYPE=WORK,VOICE;VALUE=uri:tel:+4915256495022
+TEL;TYPE=WORK:+4915256495022
 EMAIL;TYPE=WORK:info@KH-Sanierungsbetrieb.de
 NOTE:Zuverlässig. Persönlich. Sauber.
 END:VCARD
