@@ -1,11 +1,11 @@
-
 BEGIN:VCARD
 VERSION:3.0
-N:;KH Sanierungsbetrieb;;;
 FN:KH Sanierungsbetrieb
 ORG:KH Sanierungsbetrieb
 TEL;TYPE=WORK,VOICE:+4915256495022
 EMAIL;TYPE=WORK:info@KH-Sanierungsbetrieb.de
-NOTE:Zuverlässig. Persönlich. Sauber.
+NOTE;CHARSET=UTF-8:Zuverlässig. Persönlich. Sauber.\n\nLeistungen:\nMalerarbeiten\nGipser- & Spachtelarbeiten\nTrockenbau\nBodenverlegung\nFassadensanierung\nRenovierung & Sanierung
 END:VCARD
+
+
 
