@@ -3,55 +3,96 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Datenschutz | KH Sanierungsbetrieb</title>
+<title>KH Sanierungsbetrieb</title>
 
 <style>
-• { box-sizing: border-box; }
+• {
+box-sizing: border-box;
+}
 
 body {
 margin: 0;
 font-family: Arial, sans-serif;
 background: #111;
 color: white;
-line-height: 1.6;
 }
 
 header {
 text-align: center;
-padding: 35px 20px;
+padding: 55px 20px 35px;
 border-bottom: 4px solid #f58220;
 }
 
 .logo {
-font-size: 28px;
+font-size: clamp(26px, 8vw, 38px);
 font-weight: 900;
 }
 
-.logo span, h1 {
+.logo span {
 color: #f58220;
 }
 
+.slogan {
+margin-top: 12px;
+font-size: 19px;
+color: #ddd;
+}
+
 main {
-max-width: 650px;
+max-width: 600px;
 margin: auto;
 padding: 30px 20px;
 }
 
 h2 {
-font-size: 19px;
-margin-top: 28px;
 color: #f58220;
+margin-top: 15px;
 }
 
-a {
-color: #f58220;
+.services {
+line-height: 1.9;
+font-size: 17px;
 }
 
-.back {
-display: inline-block;
-margin-top: 30px;
-font-weight: bold;
+.buttons {
+margin-top: 35px;
+}
+
+.button {
+display: block;
 text-decoration: none;
+text-align: center;
+font-weight: bold;
+font-size: 18px;
+padding: 17px;
+margin: 14px 0;
+border-radius: 8px;
+}
+
+.call {
+background: #f58220;
+color: #111;
+}
+
+.mail {
+background: white;
+color: #111;
+}
+
+.save {
+border: 2px solid #f58220;
+color: white;
+}
+
+footer {
+text-align: center;
+color: #999;
+padding: 35px 20px;
+font-size: 14px;
+}
+
+footer a {
+color: #999;
 }
 </style>
 </head>
@@ -60,98 +101,56 @@ text-decoration: none;
 
 <header>
 <div class="logo"><span>KH</span> SANIERUNGSBETRIEB</div>
+<div class="slogan">Zuverlässig. Persönlich. Sauber.</div>
 </header>
 
 <main>
 
-<h1>Datenschutzerklärung</h1>
+<h2>Unsere Leistungen</h2>
 
-<h2>1. Verantwortlicher</h2>
-<p>
-KH Sanierungsbetrieb<br>
-Inhaber: Kevin Hudák<br>
-Bugginger Str. 46<br>
-79114 Freiburg im Breisgau<br>
-Deutschland<br><br>
+<div class="services">
+✓ Malerarbeiten<br>
+✓ Gipser- & Spachtelarbeiten<br>
+✓ Trockenbau<br>
+✓ Bodenverlegung<br>
+✓ Fassadensanierung<br>
+✓ Renovierung & Sanierung
+</div>
 
-Telefon: 0152 56495022<br>
-E-Mail:
-<a href="mailto:info@kh-sanierungsbetrieb.de">
-info@kh-sanierungsbetrieb.de
+<div class="buttons">
+
+<a class="button call" href="tel:+4915256495022">
+☎ Jetzt anrufen
 </a>
-</p>
 
-<h2>2. Hosting über GitHub Pages</h2>
-<p>
-Diese Website wird über GitHub Pages bereitgestellt.
-Anbieter ist GitHub, Inc., 88 Colin P Kelly Jr Street,
-San Francisco, CA 94107, USA.
-</p>
+<a class="button mail" href="https://wa.me/4915256495022">
+💬 WhatsApp schreiben
+</a>
 
-<p>
-Beim Aufruf der Website können technisch erforderliche
-Daten verarbeitet werden. Dazu können insbesondere die
-IP-Adresse sowie Informationen über den Zugriff gehören.
-Die Verarbeitung erfolgt zur sicheren und zuverlässigen
-Bereitstellung der Website.
-</p>
+<a class="button mail" href="mailto:info@kh-sanierungsbetrieb.de">
+✉ E-Mail schreiben
+</a>
 
-<h2>3. Kontaktaufnahme</h2>
-<p>
-Wenn Sie uns per Telefon oder E-Mail kontaktieren,
-verarbeiten wir die von Ihnen übermittelten Daten,
-soweit dies zur Bearbeitung Ihrer Anfrage erforderlich ist.
-</p>
+<a class="button call"
+href="https://wa.me/4915256495022?text=Guten%20Tag%2C%20ich%20möchte%20gerne%20einen%20Termin%20mit%20dem%20KH%20Sanierungsbetrieb%20vereinbaren.%0A%0AEs%20geht%20um%3A%20%0AWunschtermin%3A%20">
+📅 Termin anfragen
+</a>
 
-<h2>4. WhatsApp</h2>
-<p>
-Auf dieser Website befinden sich Links zur Kontaktaufnahme
-über WhatsApp. WhatsApp wird erst aufgerufen, wenn Sie
-einen entsprechenden Link anklicken.
-</p>
+<a class="button save" href="kontakt.vcf" download>
+＋ Kontakt speichern
+</a>
 
-<p>
-Anbieter von WhatsApp ist Meta Platforms Ireland Limited,
-Merrion Road, Dublin 4, D04 X2K5, Irland.
-Bei Nutzung von WhatsApp gelten zusätzlich die
-Datenschutzbestimmungen des Anbieters.
-</p>
-
-<h2>5. Kontaktdatei (vCard)</h2>
-<p>
-Auf der Website kann eine digitale Kontaktdatei (vCard)
-heruntergeladen werden. Der Download erfolgt nur,
-wenn Sie die entsprechende Schaltfläche auswählen.
-</p>
-
-<h2>6. Cookies und Tracking</h2>
-<p>
-Wir setzen auf dieser Website selbst keine Analyse-,
-Werbe- oder Trackingdienste ein.
-</p>
-
-<h2>7. Ihre Rechte</h2>
-<p>
-Ihnen stehen im Rahmen der gesetzlichen Voraussetzungen
-insbesondere Rechte auf Auskunft, Berichtigung, Löschung,
-Einschränkung der Verarbeitung und Datenübertragbarkeit zu.
-Außerdem können Ihnen Widerspruchsrechte zustehen.
-</p>
-
-<p>
-Sie haben zudem das Recht, sich bei einer zuständigen
-Datenschutzaufsichtsbehörde zu beschweren.
-</p>
-
-<h2>8. Aktualität</h2>
-<p>
-Diese Datenschutzerklärung wird angepasst, wenn sich
-die Website oder die eingesetzten Dienste ändern.
-</p>
-
-<a class="back" href="index.html">← Zurück zur Kontaktseite</a>
-
+</div>
 </main>
 
-</body>
+<footer>
+© 2026 KH Sanierungsbetrieb · Alle Rechte vorbehalten.<br><br>
+KH Sanierungsbetrieb · Freiburg im Breisgau<br><br>
 
+<a href="Impressum.html">Impressum</a>
+·
+<a href="Datenschutz.html">Datenschutz</a>
+</footer>
+
+</body>
+</html>
